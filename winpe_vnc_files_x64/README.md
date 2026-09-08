@@ -1,4 +1,4 @@
-#Config for ipxe example
+# Config for ipxe example
 
 imgfree
 kernel https://github.com/ipxe/wimboot/releases/download/v2.9.0/wimboot.i386 wimboot gui
