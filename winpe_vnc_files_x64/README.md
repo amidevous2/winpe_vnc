@@ -1,6 +1,6 @@
-You must delete the \setup.exe file, or startnet.cmd won't get run! A copy exists in \deploy that will
-be copied back once the custom initialisation is finished.
+#Config for ipxe example
 
-startnet.cmd goes in \Windows\system32
-
-Delete this file when finished.
+imgfree
+kernel https://github.com/ipxe/wimboot/releases/download/v2.9.0/wimboot.i386 wimboot gui
+imgfetch --name boot.wim https://yoururl/boot.wim boot.wim
+boot
